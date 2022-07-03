@@ -1,0 +1,9 @@
+{
+  "name": "xandermorse",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Morse code decoder/encoder",
+  "main": "index.js",
+  "author": "ZaikoXander",
+  "license": "MIT"
+}
