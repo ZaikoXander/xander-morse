@@ -38,7 +38,8 @@ const morseDictionary = {
   "---..": "8",
   "----.": "9",
 
-  ".-.-.-": ".",
+  // ".-.-.-": ".", This two, have values that are interpreted as the "E" key
+  // "-....-": "-", and "T" key
   "--..--": ",",
   "..--..": "?",
   "-...-": "=",

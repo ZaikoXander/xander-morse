@@ -1,12 +1,8 @@
-import decoder from "./decoder.js"
-import morseDictionary from "./morseDictionary.js"
+import decoder from "./src/decoder.js"
+import encoder from "./src/encoder.js"
+import morseDictionary from "./src/morseDictionary.js"
+import morseExtension from "./src/morseExtension.js"
 
-export const decodeMorse = (morseCode) => {
+export const decodeMorse = (morseCode) => decoder(morseDictionary, morseCode, morseExtension)
 
-  return decoder(morseDictionary, morseCode)
-}
-
-export const encodeMorse = (message) => {
-
-  // return encoder(morseDictionary, message)
-}
+export const encodeMorse = (message) => encoder(morseDictionary, message, morseExtension)
